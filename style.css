@@ -1,0 +1,32 @@
+body{
+    margin: 15px;
+    background-color: #9d5a5a84;
+}
+
+header h1{
+    background-color: azure;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container{ 
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+   
+img{
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    padding: 5px;
+    box-shadow: rgba(0,0,0,0.05);
+}
+img :hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
